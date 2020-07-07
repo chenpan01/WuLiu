@@ -1,0 +1,173 @@
+div {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+#imgContainer {
+	/*border: 1px solid #000000;*/
+	width:787px;
+	height:180px;
+	position: relative;
+	left: 260px;
+	z-index: -1;
+	/*
+	margin:0 auto;
+	top:110;
+	margin:0 auto;
+	overflow: hidden;
+	
+	*/
+}
+
+#imgContainer img {
+	display: none;
+}
+
+#imgMask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#imgMask .range {
+	float: left;
+	position: relative;
+}
+
+#imgMask .range div {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#imgContainer .pageBar {
+	position: absolute;
+	z-index: 99;
+	right: 10px;
+	bottom: 10px
+}
+
+#imgContainer .pictureBar {
+	z-index: 99;
+}
+
+.pageBar img,.pictureBar img {
+	display: block !important;
+	float: left;
+	border: 1px solid #666;
+	margin: 0px 2px 2px 2px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: .5;
+	opacity: .5;
+}
+
+.pageBar img.current,.pictureBar img.current {
+	filter: alpha(opacity = 100);
+	-moz-opacity: 1;
+	opacity: 1;
+	display: block !important;
+}
+
+.pageBar a {
+	display: block;
+	background: #000;
+	border: 1px solid #666;
+	color: #fff;
+	float: left;
+	width: 16px;
+	font-size: 12px;
+	margin: 2px;
+	text-align: center;
+	line-height: 16px;
+	font-family: Arial;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.pageBar a:hover,.pageBar a.current {
+	background: red;
+	color: #fff;
+	border: 1px solid #600;
+	border-top: 1px solid #F96;
+	border-left: 1px solid #F96;
+}
+.cc{
+width:100%;
+height:50px;
+background:#9ACD32;
+}
+.nav{
+
+width:787px;
+margin:0 auto;
+position:relative;
+
+
+}
+
+*{
+text-decoration: none;
+padding:0;
+margin:0;
+
+
+}
+.nav ul li{
+list-style-type: none;
+float:left;
+height:50px;
+width:120px;
+background:#9ACD32;
+line-height:50px;
+text-align: center;
+
+}
+
+*{
+color:black;
+}
+
+
+.nav ul li:hover{
+background:#EEC900;
+}
+.nav ul li ul li{
+display:none;
+}
+.nav ul li:hover ul{
+background: gray;
+position: absolute;
+
+}
+.nav ul li:hover ul li{
+display:block;
+width:120px;
+clear:both;
+
+
+}
+.nav ul li:hover ul li:hover{
+background:#EEC900;
+}
+.b {
+
+width:796px;
+height:80px;
+margin:0 auto;
+
+}
+
+
+.ab,span{
+
+font-size:large ;
+font-weight: bold;
+
+}
+.c{
+width:787px;
+margin:0 auto;
+
+}
